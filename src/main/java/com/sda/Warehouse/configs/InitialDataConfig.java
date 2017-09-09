@@ -37,6 +37,7 @@ public class InitialDataConfig {
         userRepository.save(new User("Jan", "Kowalski", "a@a.com", "a", "warehouseman", false));
         userRepository.save(new User("Marcin", "Kowalski", "abc@xyz.com", "abc", "warehouseman", false));
 
+        
         Category category = new Category("it");
         Category category2 = new Category("cook");
         Category category3 = new Category("novel");
